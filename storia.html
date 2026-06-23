@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title data-i18n-title="stp.title">La Nostra Storia — Tre generazioni dal 1964 | Carrozzeria Campari</title>
+  <meta name="description" content="Dal piccolo scantinato del 1964 alla struttura d'avanguardia alimentata da fotovoltaico da 62 kW: la storia della famiglia Campari, tre generazioni di maestri carrozzieri a Pogliano Milanese.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="La Nostra Storia — Carrozzeria Campari, dal 1964">
+  <meta property="og:description" content="Tre generazioni di maestri carrozzieri: la storia della famiglia Campari da uno scantinato a un'officina modello eco-sostenibile.">
+  <meta property="og:image" content="images/Carrozzeria-Campari-09-1024x683.jpg">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="en_GB">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--nero:#0A0A0C;--carbone:#111114;--oro:#C9A227;--oro-chiaro:#E8C766;--champagne:#D9CBA3;--avorio:#F4F1EA;--grigio:#9A9CA3;--font-display:'Archivo',sans-serif;--font-body:'Archivo',sans-serif;--ease-out:cubic-bezier(.16,1,.3,1);--header-h:80px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--nero);color:var(--avorio);font-family:var(--font-body);font-weight:300;line-height:1.7;overflow-x:hidden}
+    img{display:block;max-width:100%;height:auto}
+    .container{width:min(1280px,100% - 2.6rem);margin-inline:auto}
+    .header{position:fixed;inset:0 0 auto 0;z-index:100;height:var(--header-h);display:flex;align-items:center}
+    .page-hero{position:relative;min-height:66svh;display:flex;align-items:flex-end;overflow:hidden;padding-top:var(--header-h)}
+  </style>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "La Nostra Storia — Carrozzeria Campari",
+    "description": "La storia della Carrozzeria Campari di Pogliano Milanese: dal 1964 a oggi, tre generazioni di maestri carrozzieri.",
+    "mainEntity": { "@type": "AutoBodyShop", "name": "Carrozzeria Campari srl", "foundingDate": "1964",
+      "founder": { "@type": "Person", "name": "Fedele Campari" },
+      "address": { "@type": "PostalAddress", "streetAddress": "Via Aldo Moro 1", "postalCode": "20010", "addressLocality": "Pogliano Milanese", "addressRegion": "MI", "addressCountry": "IT" } }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header is-scrolled">
+    <div class="container header__inner">
+      <a class="logo" href="index.html" aria-label="Carrozzeria Campari — home">
+        <span class="logo__name">Carrozzeria <span>Campari</span></span>
+        <span class="logo__tag" data-i18n="logo.tag">Pogliano Milanese <b>·</b> dal 1964</span>
+      </a>
+      <nav class="nav" aria-label="Navigazione principale">
+        <a class="nav__link" href="index.html#servizi" data-i18n="nav.servizi">Servizi</a>
+        <a class="nav__link" href="fast-boll.html" data-i18n="nav.fastboll">Fast Boll 95®</a>
+        <a class="nav__link" href="index.html#assicurazioni" data-i18n="nav.assicurazioni">Assicurazioni</a>
+        <a class="nav__link is-active" href="storia.html" data-i18n="nav.storia">La Nostra Storia</a>
+        <a class="nav__link" href="index.html#contatti" data-i18n="nav.contatti">Contatti</a>
+      </nav>
+      <div class="header__tools">
+        <div class="lang" role="group" aria-label="Lingua / Language">
+          <button class="lang__btn" type="button" data-lang="it" aria-pressed="true">IT</button>
+          <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="btn btn--oro header__cta" type="button" data-modal data-i18n="cta.preventivo">Richiedi un preventivo</button>
+        <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="drawer">
+          <span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="drawer" id="drawer" aria-label="Menu mobile">
+    <a class="drawer__link" href="index.html#servizi" data-i18n="nav.servizi">Servizi</a>
+    <a class="drawer__link" href="fast-boll.html" data-i18n="nav.fastboll">Fast Boll 95®</a>
+    <a class="drawer__link" href="index.html#assicurazioni" data-i18n="nav.assicurazioni">Assicurazioni</a>
+    <a class="drawer__link is-active" href="storia.html" data-i18n="nav.storia">La Nostra Storia</a>
+    <a class="drawer__link" href="index.html#contatti" data-i18n="nav.contatti">Contatti</a>
+    <a class="drawer__link" href="#" data-modal data-i18n="cta.preventivo">Richiedi un preventivo</a>
+    <p class="drawer__contact" data-i18n="drawer.contact">Via Aldo Moro 1, Pogliano Milanese<br><a href="tel:+39029341208">+39 02.9341208</a> · <a href="mailto:carrozzeria.campari@libero.it">carrozzeria.campari@libero.it</a></p>
+  </nav>
+
+  <main>
+
+    <!-- ============ PAGE HERO ============ -->
+    <section class="page-hero">
+      <div class="page-hero__bg">
+        <img src="images/Carrozzeria-Campari-09-1024x683.jpg" alt="Le zone di preparazione dell'officina Campari con vetture sui ponti sollevatori" fetchpriority="high">
+      </div>
+      <div class="page-hero__overlay"></div>
+      <div class="container">
+        <div class="page-hero__inner">
+          <p class="kicker" data-i18n="stp.hero.kicker">Tre generazioni · una passione</p>
+          <h1 class="page-hero__title" data-i18n="stp.hero.title">Da uno scantinato, <em>un'idea di perfezione.</em></h1>
+          <p class="page-hero__sub" data-i18n="stp.hero.sub">La storia della famiglia Campari è la storia dell'automobile italiana: sessant'anni di lavoro, intuizione e rispetto per il mestiere.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TIMELINE ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="kicker" data-i18n="stp.tl.kicker">Le tappe</p>
+          <h2 class="section__title" data-i18n="stp.tl.title">1964 — <em>oggi</em></h2>
+          <div class="goldline"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-item__year">1964</div>
+            <h3 class="tl-item__title" data-i18n="stp.tl.1.t">L'intuizione</h3>
+            <p class="tl-item__text" data-i18n="stp.tl.1.p">Nello scantinato della propria abitazione, con le attrezzature strettamente indispensabili, Fedele Campari intuisce il futuro della motorizzazione privata. Insieme ai figli Agostino e Giuseppe inizia un'attività destinata a diventare una solida realtà.</p>
+            <img class="tl-item__photo" src="images/Fedele-Campari.gif" alt="Fedele Campari, fondatore della carrozzeria" loading="lazy">
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__year">1966</div>
+            <h3 class="tl-item__title" data-i18n="stp.tl.2.t">Il primo capannone</h3>
+            <p class="tl-item__text" data-i18n="stp.tl.2.p">Dallo scantinato si passa a un piccolo capannone di 120 metri quadri. L'anno successivo, la superficie cresce di altri 180: l'attività si consolida, la reputazione anche.</p>
+            <img class="tl-item__photo" src="images/Carrozzeria-Campari-07-1024x768.jpg" alt="Reparto di lavorazione della Carrozzeria Campari" loading="lazy">
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__year">1985</div>
+            <h3 class="tl-item__title" data-i18n="stp.tl.3.t">Il grande salto</h3>
+            <p class="tl-item__text" data-i18n="stp.tl.3.p">Nasce la sede attuale: due cabine forno, due banchi dima di riscontro e il meglio che il mercato delle attrezzature per carrozzieri potesse offrire, nel pieno rispetto dell'ambiente di lavoro.</p>
+            <img class="tl-item__photo" src="images/Carrozzeria-Campari-02-1024x768.jpg" alt="L'esterno della sede attuale della Carrozzeria Campari" loading="lazy">
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__year">2010</div>
+            <h3 class="tl-item__title" data-i18n="stp.tl.4.t">La modernizzazione</h3>
+            <p class="tl-item__text" data-i18n="stp.tl.4.p">Forti investimenti con la consulenza del team Sikkens: nuova cabina forno con bruciatori in vena d'aria, lampade a infrarosso su binari sopraelevati, vernici all'acqua senza solventi. Meno emissioni, più qualità dell'aria, tempi di essiccazione ridotti.</p>
+            <img class="tl-item__photo" src="images/Carrozzeria-Campari-09-1024x683.jpg" alt="Le moderne zone di preparazione dell'officina dopo la modernizzazione" loading="lazy">
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-item__year" data-i18n="stp.tl.5.y">Oggi</div>
+            <h3 class="tl-item__title" data-i18n="stp.tl.5.t">L'officina del futuro</h3>
+            <p class="tl-item__text" data-i18n="stp.tl.5.p">Un impianto fotovoltaico da 62 kW rende la struttura teoricamente autosufficiente, a impatto ambientale zero. Il prossimo obiettivo: una luminosa zona di consegna, nuove aree verdi per compensare la CO₂ emessa e un'officina modello — efficiente, salubre, sicura.</p>
+            <img class="tl-item__photo" src="images/Carrozzeria-Campari-11-1024x768.jpg" alt="L'officina moderna della Carrozzeria Campari oggi" loading="lazy">
+          </div>
+        </div>
+        <p class="timeline-hint" aria-hidden="true">
+          <span data-i18n="hero.scroll">Scorri</span>
+          <svg viewBox="0 0 26 10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M1 5h22m0 0-4-4m4 4-4 4"/></svg>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ VALORI ============ -->
+    <section class="section section--carbone">
+      <div class="container">
+        <div class="section__head section__head--center reveal">
+          <p class="kicker" data-i18n="stp.val.kicker">I valori della famiglia</p>
+          <h2 class="section__title" data-i18n="stp.val.title">Ciò che non <em>cambia mai</em></h2>
+          <div class="goldline"></div>
+        </div>
+        <div class="values__grid">
+          <div class="value reveal">
+            <h3 class="value__title" data-i18n="stp.val.1.t">Il mestiere</h3>
+            <p class="value__text" data-i18n="stp.val.1.p">L'arte del carrozziere si tramanda di padre in figlio. Ogni riparazione è eseguita a regola d'arte, come Fedele insegnava nel 1964.</p>
+          </div>
+          <div class="value reveal" style="--d:.12s">
+            <h3 class="value__title" data-i18n="stp.val.2.t">L'innovazione</h3>
+            <p class="value__text" data-i18n="stp.val.2.p">Dal banco dima CAR-O-TRONIC® al brevetto Fast Boll 95®: la tradizione vive solo se guarda avanti.</p>
+          </div>
+          <div class="value reveal" style="--d:.24s">
+            <h3 class="value__title" data-i18n="stp.val.3.t">L'ambiente</h3>
+            <p class="value__text" data-i18n="stp.val.3.p">Energia dal sole, vernici all'acqua, emissioni ridotte. Il sogno: un'officina a impatto zero, per le generazioni che verranno.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section cta-band">
+      <div class="container reveal">
+        <p class="kicker" data-i18n="stp.cta.kicker">Sessant'anni di fiducia</p>
+        <h2 class="section__title" data-i18n="stp.cta.title">La vostra auto merita <em>questa storia</em></h2>
+        <p class="section__lead" data-i18n="stp.cta.lead">Venite a trovarci sulla Statale del Sempione, o raccontateci di cosa ha bisogno la vostra vettura.</p>
+        <button class="btn btn--oro" type="button" data-modal data-i18n="cta.preventivo">Richiedi un preventivo</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="logo" href="index.html">
+            <span class="logo__name">Carrozzeria <span>Campari</span></span>
+            <span class="logo__tag" data-i18n="logo.tag">Pogliano Milanese <b>·</b> dal 1964</span>
+          </a>
+          <p class="footer__about" data-i18n="foot.about">Tre generazioni di maestri carrozzieri. Verniciatura Sikkens, brevetto Fast Boll 95®, garanzia europea Acoat® Selected: l'eccellenza, dal 1964.</p>
+          <div class="footer__social" aria-label="Social">
+            <a href="https://wa.me/393381120408" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2zm0 2a8 8 0 0 1 6.7 12.4l-.3.5.6 2.2-2.3-.6-.4.2A8 8 0 1 1 12 4zm-3.4 4c-.2 0-.5 0-.7.4-.3.3-1 1-1 2.3s1 2.7 1.2 2.9c.1.2 2 3 4.8 4.1 2.4 1 2.9.8 3.4.8.5-.1 1.6-.7 1.9-1.4.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3l-2-1c-.3-.1-.5-.1-.7.1l-.7.9c-.1.2-.3.2-.5.1-.3-.1-1.2-.5-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.1-.2 0-.4.1-.5l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.4-.5-.6-.5z"/></svg></a>
+            <a href="https://www.tumblr.com" target="_blank" rel="noopener" aria-label="Tumblr"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.5 2v3.5h3v3.2h-3v5.2c0 1.2.6 1.8 1.7 1.8.6 0 1.2-.1 1.5-.3v3.1c-.5.2-1.5.5-2.7.5-2.8 0-4.5-1.5-4.5-4.4V8.7H8V6c2-.5 3-2 3.2-4h3.3z"/></svg></a>
+            <a href="mailto:carrozzeria.campari@libero.it" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="foot.nav">Navigazione</h4>
+          <ul class="footer__list">
+            <li><a href="index.html#servizi" data-i18n="nav.servizi">Servizi</a></li>
+            <li><a href="fast-boll.html" data-i18n="nav.fastboll">Fast Boll 95®</a></li>
+            <li><a href="index.html#assicurazioni" data-i18n="nav.assicurazioni">Assicurazioni</a></li>
+            <li><a href="storia.html" data-i18n="nav.storia">La Nostra Storia</a></li>
+            <li><a href="index.html#contatti" data-i18n="nav.contatti">Contatti</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading" data-i18n="foot.contacts">Contatti</h4>
+          <ul class="footer__list">
+            <li><address>Via Aldo Moro 1<br>20010 Pogliano Milanese (MI)</address></li>
+            <li><a href="tel:+39029341208">+39 02.9341208</a></li>
+            <li><a href="tel:+393381120408">+39 338.1120408</a></li>
+            <li><a href="mailto:carrozzeria.campari@libero.it">carrozzeria.campari@libero.it</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p data-i18n="foot.rights">© 2026 Carrozzeria Campari srl — P.IVA 00000000000</p>
+        <p><a href="#" rel="nofollow" data-i18n="foot.privacy">Privacy &amp; Cookie Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MODAL ============ -->
+  <div class="modal" id="quote-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal__backdrop"></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" data-modal-close aria-label="Chiudi">✕</button>
+      <p class="modal__kicker" data-i18n="modal.kicker">Risposta entro 24 ore</p>
+      <h2 class="modal__title" id="modal-title" data-i18n="modal.title">Richiedi un preventivo</h2>
+      <p class="modal__sub" data-i18n="modal.sub">Compilate il modulo: un membro della famiglia Campari vi ricontatterà personalmente.</p>
+      <form class="form modal__form" data-quote-form>
+        <div class="form__row form__row--2">
+          <div class="field">
+            <label class="field__label" for="m-nome" data-i18n="form.nome">Nome <b>*</b></label>
+            <input class="field__input" type="text" id="m-nome" name="nome" required autocomplete="name">
+            <p class="field__error" data-i18n="form.err.nome">Inserire il nome</p>
+          </div>
+          <div class="field">
+            <label class="field__label" for="m-telefono" data-i18n="form.telefono">Telefono <b>*</b></label>
+            <input class="field__input" type="tel" id="m-telefono" name="telefono" required autocomplete="tel">
+            <p class="field__error" data-i18n="form.err.tel">Inserire un numero valido</p>
+          </div>
+        </div>
+        <div class="field">
+          <label class="field__label" for="m-email" data-i18n="form.email">Email</label>
+          <input class="field__input" type="email" id="m-email" name="email" autocomplete="email">
+          <p class="field__error" data-i18n="form.err.email">Inserire un'email valida</p>
+        </div>
+        <div class="field">
+          <label class="field__label" for="m-servizio" data-i18n="form.servizio">Servizio</label>
+          <select class="field__input" id="m-servizio" name="servizio">
+            <option value="" data-i18n="form.sel">Seleziona un servizio</option>
+            <option value="Carrozzeria e verniciatura" data-i18n="form.opt.carrozzeria">Carrozzeria e verniciatura</option>
+            <option value="Riparazione grandine — Fast Boll 95®" data-i18n="form.opt.fastboll">Riparazione grandine — Fast Boll 95®</option>
+            <option value="Soccorso stradale" data-i18n="form.opt.soccorso">Soccorso stradale</option>
+            <option value="Cristalli" data-i18n="form.opt.cristalli">Cristalli</option>
+            <option value="Pneumatici" data-i18n="form.opt.pneumatici">Pneumatici</option>
+            <option value="Pratiche assicurative" data-i18n="form.opt.assicurative">Pratiche assicurative</option>
+            <option value="Vettura sostitutiva / Noleggio" data-i18n="form.opt.noleggio">Vettura sostitutiva / Noleggio</option>
+            <option value="Corso Fast Boll 95®" data-i18n="form.opt.corso">Corso Fast Boll 95®</option>
+            <option value="Altro" data-i18n="form.opt.altro">Altro</option>
+          </select>
+        </div>
+        <div class="field">
+          <label class="field__label" for="m-messaggio" data-i18n="form.messaggio">Messaggio</label>
+          <textarea class="field__input" id="m-messaggio" name="messaggio" rows="3"></textarea>
+        </div>
+        <label class="check">
+          <input type="checkbox" name="privacy" required>
+          <span data-i18n="form.privacy.short">Ho letto l'<a href="#" rel="nofollow">informativa privacy</a> e acconsento al trattamento dei dati (GDPR). <b>*</b></span>
+        </label>
+        <div><button class="btn btn--oro" type="submit" style="width:100%" data-i18n="form.submit">Invia la richiesta</button></div>
+      </form>
+      <div class="modal__success" aria-live="polite">
+        <svg class="success-check" viewBox="0 0 88 88" aria-hidden="true"><circle cx="44" cy="44" r="42"/><path d="M26 45l13 13 23-27"/></svg>
+        <h3 data-i18n="modal.success.title">Richiesta inviata</h3>
+        <p data-i18n="modal.success.text">Grazie per la fiducia. Vi ricontatteremo entro 24 ore lavorative.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ FAB ============ -->
+  <div class="fab-stack">
+    <a class="fab fab--glass" href="https://wa.me/393381120408" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2zm-3.4 6c.2 0 .5 0 .6.5l.9 2.1c0 .1 0 .3 0 .5-.1.2-.2.3-.3.5l-.5.5c-.1.1-.2.3-.1.5.1.3.7 1.2 1.5 1.9 1 .9 1.9 1.3 2.2 1.4.2.1.4.1.5-.1l.7-.9c.2-.2.4-.2.7-.1l2 1c.3.1.5.2.6.3 0 .1 0 .7-.2 1.3-.3.7-1.4 1.3-1.9 1.4-.5 0-1 .2-3.4-.8-2.8-1.1-4.7-3.9-4.8-4.1-.2-.2-1.2-1.6-1.2-2.9s.7-2 1-2.3c.2-.4.5-.4.7-.4z"/></svg>
+    </a>
+    <button class="fab fab--oro" type="button" data-modal aria-label="Richiedi un preventivo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+    </button>
+  </div>
+
+  <!-- ============ MOBILE BAR ============ -->
+  <div class="mobilebar">
+    <a class="mobilebar__btn mobilebar__btn--call" href="tel:+39029341208">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+      <span data-i18n="mb.call">Chiama</span>
+    </a>
+    <button class="mobilebar__btn mobilebar__btn--quote" type="button" data-modal data-i18n="serv.cta">Preventivo</button>
+  </div>
+
+  <!-- ============ COOKIE ============ -->
+  <div class="cookies" id="cookie-banner" role="region" aria-label="Cookie">
+    <p data-i18n="cookie.text">Questo sito utilizza cookie tecnici e, previo consenso, cookie di terze parti (Google Maps) per la mappa interattiva. <a href="#" rel="nofollow">Cookie policy</a></p>
+    <div class="cookies__actions">
+      <button class="btn btn--oro cookies__btn" type="button" data-cookies="accept" data-i18n="cookie.accept">Accetta</button>
+      <button class="btn btn--glass cookies__btn" type="button" data-cookies="decline" data-i18n="cookie.decline">Solo necessari</button>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
